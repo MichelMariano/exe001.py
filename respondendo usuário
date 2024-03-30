@@ -1,0 +1,10 @@
+nome = input('Qual seu Nome? ')
+dia = input('Que dia você nasceu? ')
+mes = input('Que mês você nasceu? ')
+ano = input('Que ano você nasceu? ')
+
+print('Olá é um prazer te conhecer,', nome)
+
+# posso escrever assim támbem, abixo: print('Olá é um prazer te conhecer {}!' .format(nome))
+
+print('Você nasceu em', dia, mes, ano)
